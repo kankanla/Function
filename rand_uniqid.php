@@ -23,6 +23,9 @@ $test = new m_rand;
     }
 
 
+echo (new m_rand())->uniqid();
+
+
 class m_rand{
 
   public function m_rand(){
